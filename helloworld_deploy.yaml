@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: hello-world
+        image: nginx
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
